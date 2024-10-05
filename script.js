@@ -56,3 +56,18 @@ do {
   console.log(typeof mixedArray[k]);
   k++;
 } while (k < mixedArray.length);
+
+console.log("=== Завдання 3 ===");
+
+const people = [
+  { name: "John", age: 25, pets: ["cat", "dog"] },
+  { name: "Alice", age: 19, pets: ["parrot"] },
+  { name: "Bob", age: 30, pets: ["fish"] },
+  { name: "Charlie", age: 22, pets: [] },
+  { name: "Diana", age: 18, pets: ["hamster"] },
+];
+
+// filter
+console.log("Фільтрація за віком більше 20:");
+const adults = people.filter((person) => person.age > 20);
+console.log(adults);
