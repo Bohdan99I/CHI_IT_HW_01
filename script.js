@@ -85,3 +85,16 @@ const updatedPeople = people.map((person, index) => {
 });
 
 console.log(updatedPeople);
+
+console.log("=== Завдання 5 ===");
+
+const arr = new Array(10).fill(42);
+console.log("Початковий масив:", arr);
+
+// splice 
+arr.splice(4, 0, "answer"); 
+console.log("Масив після вставки:", arr);
+
+// find
+const found = arr.find((element) => element === "answer");
+console.log("Знайдене слово:", found);
