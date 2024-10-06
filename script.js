@@ -71,3 +71,17 @@ const people = [
 console.log("Фільтрація за віком більше 20:");
 const adults = people.filter((person) => person.age > 20);
 console.log(adults);
+
+console.log("=== Завдання 4 ===");
+
+const newPets = ["rabbit", "turtle", "lizard", "ferret", "snake"];
+
+// map
+const updatedPeople = people.map((person, index) => {
+  return {
+    ...person,
+    pets: [...person.pets, newPets[index % newPets.length]],
+  };
+});
+
+console.log(updatedPeople);
