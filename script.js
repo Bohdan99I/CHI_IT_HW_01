@@ -91,10 +91,29 @@ console.log("=== Завдання 5 ===");
 const arr = new Array(10).fill(42);
 console.log("Початковий масив:", arr);
 
-// splice 
-arr.splice(4, 0, "answer"); 
+// splice
+arr.splice(4, 0, "answer");
 console.log("Масив після вставки:", arr);
 
 // find
 const found = arr.find((element) => element === "answer");
 console.log("Знайдене слово:", found);
+
+console.log("=== Завдання 6 ===");
+
+const person = {
+  name: "John",
+  age: 30,
+  profession: "Developer",
+  hasPets: true,
+};
+
+// Object.keys()
+console.log("Ключі об'єкта:", Object.keys(person));
+
+// hasOwnProperty
+console.log("Чи є ключ 'age'? :", person.hasOwnProperty("age"));
+console.log("Чи є ключ 'salary'? :", person.hasOwnProperty("salary"));
+
+// Object.values()
+console.log("Значення об'єкта:", Object.values(person));
