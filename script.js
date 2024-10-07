@@ -1,3 +1,4 @@
+////////////////////////////////////////////////////////////////////
 console.log("=== Завдання 1 ===");
 
 // for
@@ -14,6 +15,7 @@ while (i <= 10) {
   i++;
 }
 
+/////////////////////////////////////////////////////////////////////
 console.log("=== Завдання 2 ===");
 
 const mixedArray = [
@@ -57,6 +59,7 @@ do {
   k++;
 } while (k < mixedArray.length);
 
+///////////////////////////////////////////////////////////////////
 console.log("=== Завдання 3 ===");
 
 const people = [
@@ -72,6 +75,7 @@ console.log("Фільтрація за віком більше 20:");
 const adults = people.filter((person) => person.age > 20);
 console.log(adults);
 
+//////////////////////////////////////////////////////////////////
 console.log("=== Завдання 4 ===");
 
 const newPets = ["rabbit", "turtle", "lizard", "ferret", "snake"];
@@ -86,6 +90,7 @@ const updatedPeople = people.map((person, index) => {
 
 console.log(updatedPeople);
 
+///////////////////////////////////////////////////////////////////
 console.log("=== Завдання 5 ===");
 
 const arr = new Array(10).fill(42);
@@ -99,6 +104,7 @@ console.log("Масив після вставки:", arr);
 const found = arr.find((element) => element === "answer");
 console.log("Знайдене слово:", found);
 
+///////////////////////////////////////////////////////////////////
 console.log("=== Завдання 6 ===");
 
 const person = {
